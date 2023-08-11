@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="Logo">
+    <image src="../../images/logo.png" mode="widthFix"/>
+    <text>AI Laboratory</text>
+  </view>
+  <view class="comBox">
+    <image src="../../images/73d12e3965c16b5f177645dcc60d5483.jpg" mode="widthFix"/>
+  </view>
+  <view class="info">
+    <view class="comTitle">ChatBot API Key</view>
+    <view class="com_price">
+      <text>¥</text>
+      <text>99/年</text>
+    </view>
+    <view class="com_price">
+      <view class="comTitle_1">商品详情</view>
+      <view class="com_info">
+        <view>🪄  无需魔法，魔法俗称翻墙。</view>
+        <view>⚡️   国内镜像，极快的响应速度。</view>
+        <view>🚪  无任何技术门槛，小白都可以轻松使用。</view>
+        <view>🎉  支持模型：gpt-3.5-turbo/gpt-3.5-turbo-16k。</view>
+        <view>🔐  隐私安全，所有数据保存在用户浏览器本地。</view>
+        <view>🎭  预制角色功能（面具），方便地创建、分享和调试你的个性化对话。</view>
+      </view>
+    </view>
+  </view>
+  <button type="primary" bindtap="shop" class="shop">购买API Key</button>
+</view>

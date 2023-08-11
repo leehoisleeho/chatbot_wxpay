@@ -1,0 +1,65 @@
+/**index.wxss**/
+.Logo>image{
+  width: 80rpx;
+  margin-right: 20rpx;
+}
+.Logo{
+  padding: 10rpx 30rpx;
+  display: flex;
+  align-items: center;
+}
+.Logo > text{
+  font-weight: 800;
+  color: rgb(58, 58, 58);
+}
+.comBox{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 700rpx;
+  display: flex;
+  justify-content: center;
+  border-radius: 20rpx;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20rpx;
+}
+.comBox> image{
+  width: 500rpx;
+}
+.info{
+  padding: 20rpx 30rpx;
+}
+.shop{
+  margin: 0 auto;
+}
+.comTitle{
+  font-size: 40rpx;
+  color: rgb(39, 39, 39);
+  font-weight: 600;
+}
+.com_price>text:nth-child(1){
+  color: rgb(248, 73, 73);
+  font-size: 50rpx;
+  margin-right: 10rpx;
+  font-weight: 800;
+}
+
+.com_price>text:nth-child(2){
+  color: rgb(51, 51, 51);
+  font-size: 38rpx;
+  font-weight: 800;
+}
+.comTitle_1{
+  font-size: 32rpx;
+  margin-top: 20rpx;
+  margin-bottom: 8rpx;
+  color: rgb(43, 43, 43);
+}
+.shop{
+  margin-top: 20rpx;
+  margin-bottom: 100rpx;
+}
+.com_info{
+  font-size: 28rpx;
+  color: rgb(116, 116, 116);
+}
+

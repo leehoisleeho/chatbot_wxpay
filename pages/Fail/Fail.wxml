@@ -1,0 +1,9 @@
+<!--pages/Fail/Fail.wxml-->
+<view class="container">
+  <view class="iconBox">
+    <image src="../../images/fail.png" mode="widthFix"/>
+    <view class="tltle">支付失败</view>
+    <button type="default" class="btn" bindtap="gotoIndex">返回</button>
+  </view>
+</view>
+

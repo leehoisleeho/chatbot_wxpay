@@ -1,0 +1,14 @@
+<!--pages/APIkeyDetails/APIkeyDetails.wxml-->
+<view class="container">
+  <view class="iconBox" wx:if="{{show}}">
+    <image  src="../../images/APIKeyLogo.png" mode="widthFix"/>
+    <view class="tltle">你的API Key</view>
+    <button type="primary" bindtap="copy">点击复制</button>
+  </view>
+  <view class="iconBox" wx:if='{{show_1}}'>
+    <image src="../../images/APIKey_1.png" mode="widthFix"/>
+    <view class="tltle">你还没有API Key</view>
+    <button type="primary" bindtap="gotoIndex">点击去购买</button>
+  </view>
+</view>
+

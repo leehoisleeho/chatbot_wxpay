@@ -1,0 +1,9 @@
+<!--pages/Successful/Successful.wxml-->
+<view class="container">
+  <view class="iconBox">
+    <image src="../../images/successful.png" mode="widthFix"/>
+    <view class="tltle">支付成功</view>
+    <button type="primary" bindtap="gotoApi">查看API Key</button>
+    <button type="default" class="btn" bindtap="gotoIndex">返回</button>
+  </view>
+</view>
